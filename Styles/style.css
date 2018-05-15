@@ -1,0 +1,522 @@
+/* BODY */
+
+* {
+	font-family: "Montserrat";
+	color: white;
+}
+
+
+/* HEADER AND VIDEO-BACKGROUND STYLING */
+
+*{box-sizing: border-box;}
+
+body{ margin: 0;
+ font-family: Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana," sans-serif";
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #333;
+	overflow-x: hidden;
+	background-color: #1C1C1C;
+	background: linear-gradient(110deg, #1C1C1C 60%, #3f3a4d 60%);
+}
+
+
+
+.video-header{height: 100vh;
+         display: flex;
+	     align-items: center;
+	     color: #fff;
+	
+}
+
+.wrap{
+	max-width: 960px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	margin:auto;
+	text-align: center;
+	
+}
+.fullscreen-video-wrap{
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100vh;
+	width: 100%;
+	overflow: hidden;
+	z-index: -1;
+	
+}
+.fullscreen-video-wrap video{
+	min-height: 100%;
+	min-width: 100%;
+	
+}
+
+.header-overlay{
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: rgba(34,33,33,0.65);
+	
+	
+}
+
+.header-content{
+	z-index: 2;
+	margin-top:20%;
+	padding: 0 5rem;
+	
+}
+
+.header-content h1{
+	font-size: 50px;
+	margin-bottom: 0;
+	
+}
+.header-content p{
+	font-size: 1.5rem;
+	display: block;
+	padding-bottom: 2rem;
+	margin-top: 10px;
+}
+
+.my-btn{
+	padding: 1rem 1rem;
+	margin: 5px;
+	background-color: #3f3a4d;
+	border: none;
+}
+
+.my-btn:hover {
+	background-color: black;
+	color: white;
+}
+
+@media(max-width:768px){
+	.header-content h1{font-size: 40px;}
+	.header-content p{font-size: 1rem;}
+}
+
+section{text-align: center; margin-top: 50px; font-size: 1.5rem;}
+
+
+
+/* NAVBAR */
+
+ .ul-nav {
+ 		position: fixed;
+        display: flex;
+        height: 46px;
+        width: 100%;
+        align-items: center;
+        padding: 0 10px;
+        background: transparent;
+        color: white;
+        font-size: 1em;
+        z-index: 3;
+        justify-content: space-around;
+        list-style: none;
+
+	}
+
+	li a {
+		color: white;
+		margin: 30px;
+	}
+
+	li a:hover {
+		border-bottom: solid 1.5px white;
+		text-decoration: none;
+	}
+
+	.navbar-a:hover {
+		color: white;
+	}	
+
+ .logo-a {
+        margin-right: auto;
+    }
+
+.logo {
+	width: 15em;
+	padding: 10px;
+
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: rgba(0,0,0,0.85) !important;
+  transition: background-color 500ms linear;
+}
+
+
+
+
+
+/* CONTENT-STYLING FRONT-PAGE */
+
+.row {
+	padding: 50px;
+}
+
+.bordertop {
+	border-top: #3f3a4d solid 3px;
+}
+
+
+
+.projectbutton {
+	background-color: #3f3a4d;
+	color: #f9f9f9;
+}
+
+.projectbutton:hover {
+	background-color: black;
+	color: white;
+}
+
+.img-fluid {
+	margin-top: 30px;
+}
+
+p {
+	margin-bottom: 30px;
+}
+
+.btn-success:not(:disabled):not(.disabled).active, .btn-success:not(:disabled):not(.disabled):active, .show>.btn-success.dropdown-toggle {
+	background-color: #3f3a4d;
+	border: none;
+}
+.btn-success.focus, .btn-success:focus {
+	box-shadow: none;
+}
+
+.btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show>.btn-success.dropdown-toggle:focus {
+	box-shadow: none;
+}
+
+/* CONTENT-STYLING LIVELAUNCH-PAGE */
+
+.livelaunch {
+	background-color: black;
+}
+
+/* COUNTDOWN-STYLING */
+
+h1 {
+  font-weight: normal;
+  margin-bottom: 80px;
+}
+
+.countdowntimer {
+  display: inline-block;
+  font-size: 1.5em;
+  list-style-type: none;
+  padding: 1em;
+  text-transform: uppercase;
+  border-top: solid 3px #3f3a4d;
+  border-bottom: solid 3px #3f3a4d;
+  padding: 50px;
+}
+
+li span {
+  display: block;
+  font-size: 4.5rem;
+}
+
+.timer{
+	margin-top: 10em;
+	position: absolute;
+	width: 100%;
+	text-align: center;
+
+}
+
+/* FOOTER - STYLING */
+
+.col-xs-12 {
+	text-align: center;
+}
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+section {
+    padding: 60px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #007b5e;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+.borderright {
+	border-right: 3px solid white;
+}
+
+
+#footer {
+    background: #3f3a4d !important;
+}
+#footer h5{
+	padding-left: 10px;
+    border-left: 3px solid #eeeeee;
+    padding-bottom: 6px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+#footer a {
+    color: #ffffff;
+    text-decoration: none !important;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+#footer ul.social li{
+	padding: 3px 0;
+}
+#footer ul.social li a i {
+    margin-right: 5px;
+	font-size:25px;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.social li:hover a i {
+	font-size:30px;
+	margin-top:-10px;
+}
+#footer ul.social li a,
+#footer ul.quick-links li a{
+	color:#ffffff;
+}
+#footer ul.social li a:hover{
+	color:#eeeeee;
+}
+#footer ul.quick-links li{
+	padding: 3px 0;
+	-webkit-transition: .5s all ease;
+	-moz-transition: .5s all ease;
+	transition: .5s all ease;
+}
+#footer ul.quick-links li:hover{
+	padding: 3px 0;
+	margin-left:5px;
+	font-weight:700;
+}
+#footer ul.quick-links li a i{
+	margin-right: 5px;
+}
+#footer ul.quick-links li:hover a i {
+    font-weight: 700;
+}
+
+@media (max-width:767px){
+	#footer h5 {
+    padding-left: 0;
+    border-left: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 10px;
+}
+
+}
+
+/* CONTACT-PAGE STYLING */
+
+.body {
+	
+	
+  }
+
+	
+
+
+.col-md-5 {
+     border-radius: 2px;
+   
+}
+
+.kontaktoverskrift {
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+
+.formcolor {
+   	position: absolute;
+   	margin-top: 100px;
+   	left: 550px;
+   	background-color: black;
+   	padding: 20px;
+   	opacity: 0.85;
+   
+
+
+}
+
+h1 {
+    color: white;
+
+}
+
+
+
+.form {
+    text-align: center;
+    
+}
+
+label {
+    font-size: 14px;
+    display: inline-block;
+    margin: 8px 0 2px 0;   
+}
+
+.error { 
+    color: white; 
+}
+
+.col-md-5 form div #phone {
+    width: 80%;
+}
+
+.col-md-5 form div #name {
+    width: 80%;
+}
+
+.col-md-5 form div #email {
+    width: 80%;
+}
+
+.col-md-5 form div #email2 {
+    width: 80%;
+}
+
+.col-md-5 form div #comment {
+    width: 80%;
+}
+
+.col-md-5 form div input[type=submit] {
+    width: 30%;
+}
+
+
+
+ #phone {  
+    width: 100%;
+    border: solid 1px lightgrey;
+    height: 45px;
+    padding: 10px;
+    outline: none;
+    background-color: #f9f9f9B3;
+    color: white;
+    border: none;
+    font-size: 23px;
+    background: transparent;
+    border: 2px solid #3f3a4d;
+
+}
+
+#name {  
+    width: 100%;
+    border-radius: 2px;
+    border: solid 1px lightgrey;
+    height: 45px;
+    padding: 10px;
+    outline: none;
+    background-color: #f9f9f9B3;
+    color: white;
+    border: none;
+    font-size: 23px;
+    background: transparent;
+    border: 2px solid #3f3a4d;
+
+}
+
+#email {  
+    width: 100%;
+    border-radius: 2px;
+    border: solid 1px lightgrey;
+    height: 45px;
+    padding: 10px;
+    outline: none;
+    background-color: #f9f9f9B3;
+    color: white;
+    border: none;
+    font-size: 23px;
+    background: transparent;
+    border: 2px solid #3f3a4d;
+}
+
+#email2 {  
+    width: 100%;
+    border-radius: 2px;
+    border: solid 1px lightgrey;
+    height: 45px;
+    padding: 10px;
+    outline: none;
+    background-color: #f9f9f9B3;
+    color: white;
+    border: none;
+    font-size: 23px;
+    background: transparent;
+    border: 2px solid #3f3a4d;
+}
+
+#comment {  
+    width: 100%;
+    border-radius: 2px;
+    border: none;
+    height: 180px;
+    padding: 10px;
+    outline: none;
+    background-color: #f9f9f9B3;
+    color: white;
+    font-size: 23px;
+    background: transparent;
+    border: 2px solid #3f3a4d;
+}
+
+input[type=submit] {
+    width: 100%;
+    transition: 0.5s;
+    background-color: #f9f9f9B3;
+    border: none;
+    color: white;
+    padding: 6px;
+    font-size: 23px;
+    background: transparent;
+    border: 2px solid #3f3a4d;
+}
+
+input[type=submit]:hover {
+    background-color: #3f3a4d;
+    transition: 0.5s;
+}
+
+#name:focus {
+    background-color: #3f3a4d;
+    transition: 0.3s;
+}
+
+#phone:focus {
+    background-color: #3f3a4d;
+    transition: 0.3s;
+}
+
+#email:focus {
+    background-color: #3f3a4d;
+    transition: 0.3s;
+}
+
+#email2:focus {
+    background-color: #3f3a4d;
+    transition: 0.3s;
+}
+
+#comment:focus {
+    background-color: #3f3a4d;
+    transition: 0.3s;
+}
+
+
