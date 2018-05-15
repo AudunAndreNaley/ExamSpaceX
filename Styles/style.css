@@ -16,9 +16,10 @@ body{ margin: 0;
 	line-height: 1.5;
 	color: #333;
 	overflow-x: hidden;
-	background-color: #1C1C1C;
-	background: linear-gradient(110deg, #1C1C1C 60%, #3f3a4d 60%);
+	background-color: #0F0F0F;
+	
 }
+
 
 
 
@@ -167,6 +168,10 @@ section{text-align: center; margin-top: 50px; font-size: 1.5rem;}
 
 
 
+
+
+
+
 .projectbutton {
 	background-color: #3f3a4d;
 	color: #f9f9f9;
@@ -195,6 +200,38 @@ p {
 
 .btn-success:not(:disabled):not(.disabled).active:focus, .btn-success:not(:disabled):not(.disabled):active:focus, .show>.btn-success.dropdown-toggle:focus {
 	box-shadow: none;
+}
+
+/* MOBILE CONTENT-STYLING FRONT-PAGE */
+
+@media only screen and (max-width: 769px) {
+    
+    .projectbutton {
+        width: 100%;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    h5 {
+        border: solid 2px white;
+        margin: 20px;
+        text-transform: uppercase;
+    }
+
+    .mobilemenu {
+        margin-right: 5px;
+        border: solid white 1px;
+        padding: 3px;
+    }
+
+    
+
+
+
+    
+
 }
 
 /* CONTENT-STYLING LIVELAUNCH-PAGE */
@@ -255,9 +292,13 @@ section .section-title {
 	border-right: 3px solid white;
 }
 
+.quick-links {
+        font-size: 20px;
+    }
 
 #footer {
     background: #3f3a4d !important;
+
 }
 #footer h5{
 	padding-left: 10px;
@@ -265,6 +306,7 @@ section .section-title {
     padding-bottom: 6px;
     margin-bottom: 20px;
     color:#ffffff;
+    text-transform: uppercase;
 }
 #footer a {
     color: #ffffff;
@@ -313,18 +355,24 @@ section .section-title {
 
 @media (max-width:767px){
 	#footer h5 {
-    padding-left: 0;
-    border-left: transparent;
-    padding-bottom: 0px;
+    padding: 10px;
     margin-bottom: 10px;
 }
+
+    p {
+        font-size: 16px;
+    }
+
+    .quick-links {
+        font-size: 20px;
+    }
 
 }
 
 /* CONTACT-PAGE STYLING */
 
 .body {
-	
+	background-color: black;
 	
   }
 
