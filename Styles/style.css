@@ -1,18 +1,5 @@
 /* BODY */
 
-@font-face {
-font-family: "Montserrat";
-src: url("Fonts/Montserrat.eot");
-src: 
-url("Fonts/Montserrat.woff") format("woff"),
-url("Fonts/Montserrat.otf") format("opentype"),
-url("Fonts/Montserrat.svg#filename") format("svg");
-}
-
-
-
-
-
 * {
 	font-family: "Montserrat";
 	color: white;
